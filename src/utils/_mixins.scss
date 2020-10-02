@@ -1,0 +1,21 @@
+@import './variables';
+
+@mixin mobile {
+    @media screen and (max-width:#{$breakpoint-tablet - 1px}) {
+        @content;
+        $grid-width: 4 !global;
+        $grid-box-gap: 1 !global;
+    }
+}
+
+@mixin tablet {
+    @media screen and (min-width: #{$breakpoint-tablet}) and (max-width:#{$breakpoint-desktop - 1px}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width : #{$breakpoint-desktop}) {
+        @content;
+    }
+}

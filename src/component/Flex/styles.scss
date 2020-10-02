@@ -1,0 +1,97 @@
+@import '../../utils/mixins';
+
+.flex-container {
+    width: 90%;
+    margin: 30px 0;
+    .box1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        div {
+            background-color: rgb(214, 214, 230);
+            height: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px 0;
+        }
+    }
+    .box2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        div {
+            background-color: rgb(210, 213, 208);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px 0;
+        }
+    }
+    .box3 {
+        width: 100%;
+        height: 18vh;
+        background-color: rgb(200, 201, 184);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 0;
+    }
+    .box4 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        div {
+            background-color: rgb(193, 184, 183);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px 0;
+        }
+    }
+
+    @include mobile {
+        .box1 div {
+            width: 100%;
+        }
+        .box2 div {
+            width: 100%;
+            height: 15vh;
+        }
+        .box4 div {
+            width: 100%;
+            height: 15vh;
+        }
+    }
+
+    @include tablet {
+        .box1 div {
+            width: 100%;
+        }
+        .box2 div {
+            width: 45%;
+            height: 15vh;
+        }
+        .box4 div {
+            width: 100%;
+            height: 20vh;
+        }
+    }
+
+    @include desktop {
+        .box1 div {
+            width: 45%;
+        }
+        .box2 div {
+            width: 20%;
+            height: 15vh;
+        }
+        .box4 div {
+            width: 30%;
+            height: 25vh;
+        }
+    }
+}
