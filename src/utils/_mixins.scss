@@ -3,8 +3,6 @@
 @mixin mobile {
     @media screen and (max-width:#{$breakpoint-tablet - 1px}) {
         @content;
-        $grid-width: 4 !global;
-        $grid-box-gap: 1 !global;
     }
 }
 
