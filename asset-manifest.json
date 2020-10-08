@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/responsive-page/static/css/main.8cc1c891.chunk.css",
-    "main.js": "/responsive-page/static/js/main.d024a32c.chunk.js",
-    "main.js.map": "/responsive-page/static/js/main.d024a32c.chunk.js.map",
-    "runtime-main.js": "/responsive-page/static/js/runtime-main.8b725617.js",
-    "runtime-main.js.map": "/responsive-page/static/js/runtime-main.8b725617.js.map",
-    "static/js/2.d349d35c.chunk.js": "/responsive-page/static/js/2.d349d35c.chunk.js",
-    "static/js/2.d349d35c.chunk.js.map": "/responsive-page/static/js/2.d349d35c.chunk.js.map",
-    "index.html": "/responsive-page/index.html",
-    "precache-manifest.4f2c7852db2f7f84699cb1bad9b3252e.js": "/responsive-page/precache-manifest.4f2c7852db2f7f84699cb1bad9b3252e.js",
-    "service-worker.js": "/responsive-page/service-worker.js",
-    "static/css/main.8cc1c891.chunk.css.map": "/responsive-page/static/css/main.8cc1c891.chunk.css.map",
-    "static/js/2.d349d35c.chunk.js.LICENSE.txt": "/responsive-page/static/js/2.d349d35c.chunk.js.LICENSE.txt"
+    "main.css": "/responsive-page/flex/static/css/main.8cc1c891.chunk.css",
+    "main.js": "/responsive-page/flex/static/js/main.b33f2679.chunk.js",
+    "main.js.map": "/responsive-page/flex/static/js/main.b33f2679.chunk.js.map",
+    "runtime-main.js": "/responsive-page/flex/static/js/runtime-main.aa81e1ef.js",
+    "runtime-main.js.map": "/responsive-page/flex/static/js/runtime-main.aa81e1ef.js.map",
+    "static/js/2.d349d35c.chunk.js": "/responsive-page/flex/static/js/2.d349d35c.chunk.js",
+    "static/js/2.d349d35c.chunk.js.map": "/responsive-page/flex/static/js/2.d349d35c.chunk.js.map",
+    "index.html": "/responsive-page/flex/index.html",
+    "precache-manifest.e6b295a5cc112d75b7a21001e97219e3.js": "/responsive-page/flex/precache-manifest.e6b295a5cc112d75b7a21001e97219e3.js",
+    "service-worker.js": "/responsive-page/flex/service-worker.js",
+    "static/css/main.8cc1c891.chunk.css.map": "/responsive-page/flex/static/css/main.8cc1c891.chunk.css.map",
+    "static/js/2.d349d35c.chunk.js.LICENSE.txt": "/responsive-page/flex/static/js/2.d349d35c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8b725617.js",
+    "static/js/runtime-main.aa81e1ef.js",
     "static/js/2.d349d35c.chunk.js",
     "static/css/main.8cc1c891.chunk.css",
-    "static/js/main.d024a32c.chunk.js"
+    "static/js/main.b33f2679.chunk.js"
   ]
 }
