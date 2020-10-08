@@ -31,7 +31,7 @@ const Nav = () => {
             ></div>
             <div className={`toggle-menu ${IsClicked ? 'show' : 'hide'}`}>
                 <p>
-                    <Link to="/flex" onClick={() => setIsClicked(false)}>
+                    <Link to="/" onClick={() => setIsClicked(false)}>
                         FLEX
                     </Link>
                 </p>
