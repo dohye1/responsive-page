@@ -12,7 +12,7 @@ function App() {
             <div className="App">
                 <Nav />
                 <Switch>
-                    <Route exact path="/" component={Flex} />
+                    <Route path="/flex" component={Flex} />
                     <Route path="/grid" component={Grid} />
                 </Switch>
             </div>

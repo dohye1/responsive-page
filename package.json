@@ -2,7 +2,7 @@
     "name": "responsible",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://dohye1.github.io",
+    "homepage": "http://dohye1.github.io/responsive-page/flex",
     "dependencies": {
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.3.2",
